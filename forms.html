@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Biling details</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div style="display: flex;">
+<form style="flex: 1;">
+  <h2>Billing Details</h2>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+
+      <input type="text" class="form-control" id="firstName" placeholder="First name">
+    </div>
+    <div class="form-group col-md-6">
+
+      <input type="text" class="form-control" id="lastName" placeholder="Last name">
+    </div>
+  </div>
+  <div class="form-group">
+
+    <input type="text" class="form-control" id="companyName" placeholder="company name">
+  </div>
+  <div class="form-group">
+
+    <input type="text" class="form-control" id="address" placeholder="Address">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+
+      <input type="email" class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+
+      <input type="tel" class="form-control" id="phone" placeholder="Phone">
+    </div>
+  </div>
+  <div class="form-group">
+
+    <textarea class="form-control" id="additionalInformation" rows="3" placeholder="Additional information"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="createAccount">
+    <label class="form-check-label" for="createAccount">Create an account?</label>
+  </div>
+
+</form>
+<form style="flex: 1;margin-left: 20px">
+  <h2>Summary</h2>
+  <label>Products:</label>
+  <span>$53.98</span><br>
+  <label>Shipping:</label>
+  <span>Gratis</span><br>
+  <label><strong>Total amount <br>(including VAT):</strong></label>
+  <span><strong>$53.98</strong></span><br>
+  <button style="background-color: blue;color: white;" type="submit">Make Purchase</button>
+</form>
+</div>
+</body>
+</html>
